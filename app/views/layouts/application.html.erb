@@ -5,11 +5,13 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 
 
-<div class="container">
+<div class="container-fluid">
   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -66,6 +68,63 @@
   
 
 <%= yield %>
+
+<div class="col-xs-12"  style= "background-color: #B8B1AE ">
+<footer>
+
+  <div class="col-xs-3">
+    
+    <p> ©2015 Grand Master</p>
+    
+
+  </div>
+  <div class="col-xs-3">
+    <h3>咨询项目</h3>
+    <br>
+    <h4>OBU及离岸公司设立顾问咨询</h4>
+    <h4>境内公司设立顾问咨询</h4>
+    <h4>个人及企业财税规划服务</h4>
+    <h4>财务账务顾问咨询</h4>
+    <h4>人力资源顾问咨询</h4>
+    <h4>移民、留学、游学顾问咨询</h4>
+  </div>
+
+  <div class="col-xs-3">
+    <h3>联系方式</h3>
+    <br>
+    
+  
+    <h4>邮编: 201101</h4>
+    
+    <h4>
+      <span>  <i class="fa fa-home"></i></i> 
+      闵行区宜山路2301弄（九歌商务中心）5号楼802室</span>
+    </h4>
+   
+
+    <h4>
+      <span> <i class="fa fa-fax"></i> 021-54712097</span>
+    </h4>
+
+    <h4>
+      <span> <i class="fa fa-envelope-o"></i>
+        martha.zhu@gndmaster.com
+      </span>
+    </h4>
+  </div>
+
+  <div class="col-xs-3">
+    <h3>官方微信</h3>
+
+    <%=image_tag("Wechat.ico", :class => "img_preview") %>
+
+
+
+  </div>
+  
+
+</footer>
+</div>
 
 </div>
 </body>
