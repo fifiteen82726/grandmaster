@@ -3,6 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.mountain{
-	 background: image-url('mountain.png');
+/*
+.background{
+	position: relative;
+	background-image: image-url('mountain.jpeg');
+	background-size:100% auto;
+}*/
+
+
+.background{
+    position: relative;
+   
+}
+.main_image{
+   
+}
+.overlay_image{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: red;
 }
