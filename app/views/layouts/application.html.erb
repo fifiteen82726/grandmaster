@@ -80,12 +80,15 @@
 <div class="col-xs-12"  style= "background-color: #B8B1AE ">
 <footer>
 
+<!-- 1st  copy right -->
   <div class="col-xs-3">
     
-    <p> ©2015 Grand Master</p>
+    <p style= "bottom: 0px"> ©2015 Grand Master</p>
     
 
   </div>
+
+<!-- 2nd ASK  -->
   <div class="col-xs-3">
     <h3>咨询项目</h3>
     <br>
@@ -96,7 +99,7 @@
     <h4>人力资源顾问咨询</h4>
     <h4>移民、留学、游学顾问咨询</h4>
   </div>
-
+<!-- 3rd contact -->
   <div class="col-xs-3">
     <h3>联系方式</h3>
     <br>
@@ -116,25 +119,34 @@
 
     <h4>
       <span> <i class="fa fa-envelope-o"></i>
-        martha.zhu@gndmaster.com
+        <a href="#">martha.zhu@gndmaster.com</a>
+
       </span>
     </h4>
   </div>
 
+
+<!-- 4th wechat -->
   <div class="col-xs-3">
     <h3>官方微信</h3>
-
-    <%=image_tag("Wechat.ico", :class => "img_preview") %>
-
-
+    
+    <h3>
+      <span> 
+        <i class="fa fa-weixin"></i>
+        <a href="#">Wechat ID</a>
+        <!-- <i class="fa fa-envelope-o"></i> -->
+        <!-- martha.zhu@gndmaster.com -->
+      </span>
+    </h3>
+    <%#=image_tag("Wechat.ico", :class => "img_preview") %>
 
   </div>
-  
-
 </footer>
+<!-- footer的col-xs-12結束div-->
+</div>  
+<!-- footer的container-fluid結束div -->
 </div>
-</div>
-
+<!-- 整個框架的全部包在一起的container-fluid結束div -->
 </div>
 </body>
 </html>

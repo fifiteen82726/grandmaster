@@ -18,11 +18,18 @@
 .main_image{
    
 }
-.overlay_image{
+.overlay_image {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
-    background: red;
+    bottom: -600px;
+    right: 100px;
+    width: 800px;
+    height: 160px;
+    /*background: #0066CC;*/
+    /*opacity: 0.35;*/
+    background: rgba(0, 102, 204, 0.35); /* use rgba */
+}
+
+.slogan{
+    color: white;
+     opacity: 1;
 }
